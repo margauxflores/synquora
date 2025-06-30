@@ -74,6 +74,13 @@ npm run db:push
 pnpm db:push
 ```
 
+## 🚀 Deploy Your Own Instance
+
+Click below to deploy **Synquora** to Vercel instantly:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/margauxflores/synquora&env=NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,CLERK_SECRET_KEY,DATABASE_URL,DISCORD_GUILD_ID,DISCORD_BOT_TOKEN,DISCORD_ANNOUNCEMENT_CHANNEL_ID,NEXT_PUBLIC_APP_URL&envDescription=Add%20your%20Clerk,%20Supabase,%20and%20Discord%20keys%20to%20enable%20authentication%20and%20event%20syncing)
+
+
 ### 🧪 Database Scripts (Reset & Seed)
 
 For development and testing, you can reset and repopulate the database using the provided scripts:

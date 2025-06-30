@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Better async/await and dynamic import support
+    "module": "ESNext", // Required for top-level await in .ts config files
+    "moduleResolution": "node", // Use "node" instead of "bundler" for config files
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "lib": ["dom", "dom.iterable", "esnext"]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    // 👇 Add these to make sure TS can typecheck config files
+    "eslint.config.ts",
+    "prettier.config.js"
+  ],
+  "exclude": ["node_modules"],
+  "types": []
+}

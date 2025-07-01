@@ -6,6 +6,12 @@ A modern event management and scheduling dashboard built with Next.js 15, TypeSc
 
 📘 [View Documentation](https://synquora.com)
 
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/margauxflores/synquora?sort=semver)
+![License](https://img.shields.io/github/license/margauxflores/synquora)
+![Issues](https://img.shields.io/github/issues/margauxflores/synquora)
+![Repo size](https://img.shields.io/github/repo-size/margauxflores/synquora)
+![GitHub Repo stars](https://img.shields.io/github/stars/margauxflores/synquora?style=social)
+
 ---
 
 ## Features
